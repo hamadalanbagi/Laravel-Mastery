@@ -1,7 +1,3 @@
-@extends('layouts.master')
-
-@section('content')
-
 <div class="blog-post">
     <h2 class="blog-post-title">
         <a href="/posts/{{ $post->id }}">
@@ -13,4 +9,3 @@
     {{ $post->body }}
 
   </div><!-- /.blog-post -->
-@endsection
