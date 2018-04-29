@@ -23,20 +23,10 @@
     @include('layouts.nav')
 
     <main role="main" class="container">
-      <div class="row">
-        <div class="col-md-8 blog-main">
-          
+
           @yield('content')
 
-        </div><!-- /.blog-main -->
-
-        @include('layouts.sidebar')
-
-      </div><!-- /.row -->
-
     </main><!-- /.container -->
-
-    @include('layouts.footer')
 
   </body>
 </html>
